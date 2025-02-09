@@ -116,7 +116,8 @@ document.addEventListener("DOMContentLoaded", function () {
               ]
             ],
             "type": "Polygon"
-          }
+          },
+          "id": 1
         },
         {
           "type": "Feature",
@@ -132,7 +133,8 @@ document.addEventListener("DOMContentLoaded", function () {
               36.10850157922761
             ],
             "type": "Point"
-          }
+          },
+          "id": 2
         },
         {
           "type": "Feature",
@@ -690,7 +692,8 @@ document.addEventListener("DOMContentLoaded", function () {
               35.489804256863366
             ],
             "type": "Point"
-          }
+          },
+          "id": 11
         },
         {
           "type": "Feature",
@@ -1044,7 +1047,8 @@ document.addEventListener("DOMContentLoaded", function () {
               35.68097326637809
             ],
             "type": "Point"
-          }
+          },
+          "id": 18
         },
         {
           "type": "Feature",
@@ -2022,7 +2026,8 @@ document.addEventListener("DOMContentLoaded", function () {
               35.46741345596402
             ],
             "type": "Point"
-          }
+          },
+          "id": 32
         },
         {
           "type": "Feature",
@@ -2519,7 +2524,8 @@ document.addEventListener("DOMContentLoaded", function () {
               ]
             ],
             "type": "Polygon"
-          }
+          },
+          "id": 39
         },
         {
           "type": "Feature",
@@ -2536,7 +2542,11 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           "type": "Feature",
-          "properties": {},
+          "properties": {
+            "stroke": "#555555",
+            "stroke-width": 2,
+            "stroke-opacity": 1
+          },
           "geometry": {
             "coordinates": [
               [
@@ -2565,7 +2575,8 @@ document.addEventListener("DOMContentLoaded", function () {
               ]
             ],
             "type": "LineString"
-          }
+          },
+          "id": 41
         },
         {
           "type": "Feature",
@@ -3203,20 +3214,6 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           "type": "Feature",
           "properties": {
-            "Name": "Jacobs town"
-          },
-          "geometry": {
-            "coordinates": [
-              -116.47434758490148,
-              36.40607315209763
-            ],
-            "type": "Point"
-          },
-          "id": 48
-        },
-        {
-          "type": "Feature",
-          "properties": {
             "Name": "(mutants)Black mountain"
           },
           "geometry": {
@@ -3230,7 +3227,14 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           "type": "Feature",
-          "properties": {},
+          "properties": {
+            "Name": "The khans",
+            "stroke": "#555555",
+            "stroke-width": 2,
+            "stroke-opacity": 1,
+            "fill": "#ff00a2",
+            "fill-opacity": 0.5
+          },
           "geometry": {
             "coordinates": [
               [
@@ -3317,11 +3321,19 @@ document.addEventListener("DOMContentLoaded", function () {
               ]
             ],
             "type": "Polygon"
-          }
+          },
+          "id": 50
         },
         {
           "type": "Feature",
-          "properties": {},
+          "properties": {
+            "Name": "New California Republic",
+            "stroke": "#555555",
+            "stroke-width": 2,
+            "stroke-opacity": 1,
+            "fill": "#eeff00",
+            "fill-opacity": 0.5
+          },
           "geometry": {
             "coordinates": [
               [
@@ -3372,20 +3384,178 @@ document.addEventListener("DOMContentLoaded", function () {
               ]
             ],
             "type": "Polygon"
-          }
+          },
+          "id": 51
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "(TS) Lucky 38",
+            "marker-color": "#37ff00",
+            "marker-size": "medium",
+            "marker-symbol": "circle"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.1539012197608,
+              36.16556153737616
+            ],
+            "type": "Point"
+          },
+          "id": 52
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "FreeSide"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.11026915725225,
+              36.1638210545854
+            ],
+            "type": "Point"
+          },
+          "id": 53
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "Crimson caravan"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.09853998616225,
+              36.17359375801149
+            ],
+            "type": "Point"
+          },
+          "id": 54
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "WestSide"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.1848859071132,
+              36.188086928190174
+            ],
+            "type": "Point"
+          },
+          "id": 55
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "North New Vegas"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.12911577374848,
+              36.21081566305108
+            ],
+            "type": "Point"
+          },
+          "id": 56
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "(BOS)Hidden Valley",
+            "marker-color": "#000000",
+            "marker-size": "medium",
+            "marker-symbol": "circle"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.09066428363273,
+              35.89728354013302
+            ],
+            "type": "Point"
+          },
+          "id": 57
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "Name": "Brotherhood Of Steel",
+            "stroke": "#555555",
+            "stroke-width": 2,
+            "stroke-opacity": 1,
+            "fill": "#000000",
+            "fill-opacity": 0.5
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -115.09071638780222,
+                  35.89719982981656
+                ],
+                [
+                  -115.09056396200967,
+                  35.89725034254866
+                ],
+                [
+                  -115.09053624822924,
+                  35.89735698043337
+                ],
+                [
+                  -115.09075103002773,
+                  35.897474843190764
+                ],
+                [
+                  -115.09087574203953,
+                  35.89735698043337
+                ],
+                [
+                  -115.09084802825913,
+                  35.89725595507245
+                ],
+                [
+                  -115.09071638780222,
+                  35.89719982981656
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "id": 58
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "marker-color": "#7e7e7e",
+            "marker-size": "medium",
+            "marker-symbol": "circle",
+            "Name": "Jacobs Town"
+          },
+          "geometry": {
+            "coordinates": [
+              -115.64469743388871,
+              36.257673969699695
+            ],
+            "type": "Point"
+          },
+          "id": 58
         }
       ]
     }
-
+function setStyle(feature) {
+      return {
+        fillColor: feature.properties.fill,
+        color: feature.properties.stroke,
+        opacity: feature.properties.strokeOpacity
+      };
+}
+L.geoJson(geojson, {style: setStyle}).addTo(map);
 
 L.geoJSON(geojson).bindPopup(function(layer){
-    return layer.feature.properties.Name
+  return layer.feature.properties.Name
 })
 .addTo(map);
-
-
-
-
 
 });
 
