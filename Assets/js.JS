@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map('map').setView([35.83811188799166, -115.0966740592097], 9); 
+    var map = L.map('map').setView([36.156961812696466,-115.16145739734579], 9); 
 
     L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
@@ -3556,6 +3556,7 @@ L.geoJSON(geojson).bindPopup(function(layer){
   return layer.feature.properties.Name
 })
 .addTo(map);
+
 
 });
 
